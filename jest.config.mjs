@@ -9,6 +9,7 @@ const config = {
   collectCoverageFrom: [
     "app/**/*.{ts,tsx}",
     "components/**/*.{ts,tsx}",
+    "!app/layout.tsx",
     "!**/*.d.ts",
   ],
   coverageReporters: ["text", "lcov"],
